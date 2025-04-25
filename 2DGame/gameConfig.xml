@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gameConfig>
+	<MaxX>30</MaxX>
+	<MaxY>30</MaxY>
+	<GameLevel>Novice</GameLevel>
+</gameConfig>

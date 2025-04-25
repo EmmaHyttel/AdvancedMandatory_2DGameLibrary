@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DGame", "2DGame\2DGame.csproj", "{52FE6D1B-A87A-45B6-836C-3ABC0012DE27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLibrary", "2DGameLibrary\GameLibrary.csproj", "{84BD818D-4903-44DC-881A-462EA426F826}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52FE6D1B-A87A-45B6-836C-3ABC0012DE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FE6D1B-A87A-45B6-836C-3ABC0012DE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FE6D1B-A87A-45B6-836C-3ABC0012DE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FE6D1B-A87A-45B6-836C-3ABC0012DE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84BD818D-4903-44DC-881A-462EA426F826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84BD818D-4903-44DC-881A-462EA426F826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84BD818D-4903-44DC-881A-462EA426F826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84BD818D-4903-44DC-881A-462EA426F826}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
