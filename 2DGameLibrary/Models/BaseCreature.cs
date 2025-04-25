@@ -8,7 +8,7 @@ namespace GameLibrary.Models;
 /// <summary>
 /// Base class for all creatures.
 /// </summary>
-public class BaseCreature : ICreature
+public abstract class BaseCreature : ICreature
 {
     /// <summary>
     /// Name of the creature.
@@ -125,7 +125,7 @@ public class BaseCreature : ICreature
     /// Method for looting an object.
     /// </summary>
     /// <param name="someObject"> The object to loot </param>
-    /// <exception cref="ArgumentNullException"> If the object has no value </exception>
+    /// <exception cref="ArgumentNullException"> If the object has n </exception>
     public void Loot(WorldObject someObject)
     {
         if (someObject == null)
