@@ -134,33 +134,6 @@ int RollDice(int sides)
     return random.Next(1, sides + 1);
 }
 
-//while (true)
-//{
-//    ConsoleKey key = Console.ReadKey(true).Key;
-
-//    switch (key)
-//    {
-//        case ConsoleKey.W:
-//            hero.ChangeState(new MovingUp());
-//            break;
-//        case ConsoleKey.S:
-//            hero.ChangeState(new MovingDown());
-//            break;
-//        case ConsoleKey.A:
-//            hero.ChangeState(new MovingLeft());
-//            break;
-//        case ConsoleKey.D:
-//            hero.ChangeState(new MovingRight());
-//            break;
-//        default:
-//            break;
-//    }
-
-//    hero.Update();
-//}
-
-
-
 void SetupServiceCollection()
 {
     var serviceCollection = new ServiceCollection();
@@ -267,3 +240,29 @@ void UseHealthPotionDebug(BaseCreature creature)
 
     flamePotion?.UsePotion(creature);
 }
+
+
+//while (true)
+//{
+//    ConsoleKey key = Console.ReadKey(true).Key;
+
+//    switch (key)
+//    {
+//        case ConsoleKey.W:
+//            hero.ChangeState(new MovingUp());
+//            break;
+//        case ConsoleKey.S:
+//            hero.ChangeState(new MovingDown());
+//            break;
+//        case ConsoleKey.A:
+//            hero.ChangeState(new MovingLeft());
+//            break;
+//        case ConsoleKey.D:
+//            hero.ChangeState(new MovingRight());
+//            break;
+//        default:
+//            break;
+//    }
+
+//    hero.Update();
+//}
